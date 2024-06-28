@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+}
+
+.circularProgressBar {
+  display: block;
+  margin: auto;
+}
+
+.background {
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.progress {
+  transition: stroke-dashoffset 0.5s ease;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: -2%;
+}
