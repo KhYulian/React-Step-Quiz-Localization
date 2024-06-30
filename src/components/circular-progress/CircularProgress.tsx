@@ -11,28 +11,38 @@ interface CircularProgressProps {
 const DEFAULT_DURATION = 5000;
 const DEFAULT_SIZE = 50;
 const DEFAULT_STROKE_WIDTH = 10;
+const START_VALUE = 0;
+const END_VALUE = 100;
 
 export default function CircularProgress({
   duration = DEFAULT_DURATION,
   size = DEFAULT_SIZE,
   strokeWidth = DEFAULT_STROKE_WIDTH,
+  onLoaded,
 }: CircularProgressProps) {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    let start = 0;
+    let start = START_VALUE;
+
     const interval = setInterval(() => {
       start += 1;
       setProgress(start);
-      if (start === 100) clearInterval(interval);
-    }, duration / 100);
+      if (start >= END_VALUE) {
+        clearInterval(interval);
+
+        if (typeof onLoaded === "function") {
+          onLoaded();
+        }
+      }
+    }, duration / END_VALUE);
 
     return () => clearInterval(interval);
   }, [duration]);
 
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
-  const offset = circumference - (progress / 100) * circumference;
+  const offset = circumference - (progress / END_VALUE) * circumference;
 
   return (
     <div className={styles.container}>

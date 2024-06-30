@@ -1,0 +1,67 @@
+{
+  "app_title": "React Prueba",
+  "next_btn": "Próximo",
+
+  "quiz_1": {
+    "title": "¿Cuál es tu idioma preferido?",
+    "subtitle": "Elige lengua"
+  },
+
+  "quiz_2": {
+    "title": "¿Con qué género te identificas?",
+    "subtitle": "Por favor comparte como te identificas",
+    "female": "Femenina",
+    "male": "Masculina",
+    "other": "Otra"
+  },
+
+  "quiz_3": {
+    "title": "¿Cuál es tu edad?",
+    "age_range": "{{start_age}}-{{end_age}} años"
+  },
+
+  "quiz_4": {
+    "title": "¿Qué es lo que <strong>odias</strong> más en un libro?",
+    "lack_of_logic": "Falta de logica",
+    "slow_speed": "Una velocidad lenta",
+    "lack_of_humor": "Falta de humor",
+    "generic_ending": "Final demasiado genérico"
+  },
+
+  "quiz_5": {
+    "title": "¿Cuales son tus temas favoritos?",
+    "subtitle": "Elige hasta 3 temas que te gusten",
+    "werewolf": "Hombre-lobo",
+    "action": "Acción",
+    "royal_obsession": "Obsesión real",
+    "billionaire": "Multimillonario",
+    "romance": "Romance",
+    "young_adult": "Adulto joven",
+    "bad_boy": "Chico malo"
+  },
+
+  "loader": {
+    "text": "Buscando colecciones para ti..."
+  },
+
+  "email": {
+    "title": "Correo electrónico",
+    "subtitle": "Ingrese su correo electrónico para obtener acceso completo",
+    "input_placeholder": "Tu correo electrónico",
+    "policy": "Al continuar, acepto la <1>Política de privacidad</1> y las <3>Condiciones de uso.</3>"
+  },
+
+  "results": {
+    "title": "Gracias",
+    "subtitle": "por apoyarnos y aprobar el cuestionario",
+    "download_btn": "Descarga mis respuestas",
+    "retake_btn": "Volver a hacer el cuestionario"
+  },
+
+  "validation": {
+    "email": {
+      "required": "¡Correo electronico es requerido!",
+      "pattern": "Por favor introduzca una dirección de correo electrónico válida."
+    }
+  }
+}

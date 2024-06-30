@@ -1,0 +1,67 @@
+{
+  "app_title": "React Quiz",
+  "next_btn": "Nächste",
+
+  "quiz_1": {
+    "title": "Was ist Ihre bevorzugte Sprache?",
+    "subtitle": "Sprache wählen"
+  },
+
+  "quiz_2": {
+    "title": "Mit welchem Geschlecht identifizierst du dich?",
+    "subtitle": "Bitte teilen Sie uns mit, wie Sie sich identifizieren",
+    "female": "Weiblich",
+    "male": "Männlich",
+    "other": "Andere"
+  },
+
+  "quiz_3": {
+    "title": "Wie alt bist du?",
+    "age_range": "{{start_age}}-{{end_age}} jahre"
+  },
+
+  "quiz_4": {
+    "title": "Was <strong>hassen</strong> Sie an einem Buch am meisten?",
+    "lack_of_logic": "Mangel an Logik",
+    "slow_speed": "Eine langsame Geschwindigkeit",
+    "lack_of_humor": "Mangel an Humor",
+    "generic_ending": "Viel zu allgemeines Ende"
+  },
+
+  "quiz_5": {
+    "title": "Was sind deine Lieblingsthemen?",
+    "subtitle": "Wählen Sie bis zu 3 Themen aus, die Ihnen gefallen",
+    "werewolf": "Werwolf",
+    "action": "Aktion",
+    "royal_obsession": "Königliche Obsession",
+    "billionaire": "Milliardär",
+    "romance": "Romantik",
+    "young_adult": "Junger Erwachsener",
+    "bad_boy": "Böser Bub"
+  },
+
+  "loader": {
+    "text": "Kollektionen für Sie finden..."
+  },
+
+  "email": {
+    "title": "Email",
+    "subtitle": "Geben Sie Ihre EMail ein, um vollen Zugriff zu erhalten",
+    "input_placeholder": "Deine EMail",
+    "policy": "Indem ich fortfahre, stimme ich der <1>Datenschutzerklärung</1> und den <3>Nutzungsbedingungen</3> zu"
+  },
+
+  "results": {
+    "title": "Danke",
+    "subtitle": "für deine Unterstützung und das bestandene Quiz",
+    "download_btn": "Laden Sie meine Antworten herunter",
+    "retake_btn": "Wiederholen Sie das Quiz"
+  },
+
+  "validation": {
+    "email": {
+      "required": "E-Mail ist erforderlich!",
+      "pattern": "Bitte geben Sie eine gültige Email-Adresse ein."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../../../styles/variables";
+
+.QuizLayout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.title,
+.subtitle {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -1%;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: $color-text-caption;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

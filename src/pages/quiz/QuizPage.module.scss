@@ -1,0 +1,20 @@
+.QuizPage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: relative;
+  margin-bottom: 46px;
+}
+
+.previous-question-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main {
+  flex: 1;
+}

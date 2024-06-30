@@ -1,0 +1,40 @@
+@import "../../../../styles/variables";
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 26px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.checkbox {
+  position: relative;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #6d4376;
+  margin: 0;
+  pointer-events: none;
+  width: 24px;
+  height: 24px;
+  border: 1px solid $color-primary;
+  border-radius: 8px;
+
+  &::after {
+    color: $color-text-primary;
+    display: none;
+    content: "\2713";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+  }
+
+  &:checked {
+    &::after {
+      display: block;
+    }
+  }
+}

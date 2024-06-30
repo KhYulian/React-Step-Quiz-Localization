@@ -1,0 +1,67 @@
+{
+  "app_title": "React le quiz",
+  "next_btn": "Suivant",
+
+  "quiz_1": {
+    "title": "Quelle est votre langue préférée ?",
+    "subtitle": "Choisissez la langue"
+  },
+
+  "quiz_2": {
+    "title": "À quel genre vous identifiez-vous ?",
+    "subtitle": "Veuillez partager comment vous identifiez-vous",
+    "female": "Femelle",
+    "male": "Mâle",
+    "other": "Autre"
+  },
+
+  "quiz_3": {
+    "title": "Quel âge avez-vous?",
+    "age_range": "{{start_age}}-{{end_age}} années"
+  },
+
+  "quiz_4": {
+    "title": "Qu’est-ce que vous <strong>détestez</strong> le plus dans un livre ?",
+    "lack_of_logic": "Manque de logique",
+    "slow_speed": "Une vitesse lente",
+    "lack_of_humor": "Manque d'humour",
+    "generic_ending": "Une fin bien trop générique"
+  },
+
+  "quiz_5": {
+    "title": "Quels sont vos sujets favoris ?",
+    "subtitle": "Choisissez jusqu'à 3 sujets que vous aimez",
+    "werewolf": "Loup-garou",
+    "action": "Action",
+    "royal_obsession": "Obsession royale",
+    "billionaire": "Milliardaire",
+    "romance": "Romance",
+    "young_adult": "Jeune adulte",
+    "bad_boy": "Mauvais garçon"
+  },
+
+  "loader": {
+    "text": "Trouver des collections pour vous..."
+  },
+
+  "email": {
+    "title": "Email",
+    "subtitle": "Entrez votre email pour obtenir un accès complet",
+    "input_placeholder": "Votre email",
+    "policy": "En continuant, j'accepte la <1>Politique de confidentialité</1> et les <3>Conditions d'utilisation.</3>"
+  },
+
+  "results": {
+    "title": "Merci",
+    "subtitle": "pour nous avoir soutenu et avoir réussi le quiz",
+    "download_btn": "Téléchargez mes réponses",
+    "retake_btn": "Reprendre le quiz"
+  },
+
+  "validation": {
+    "email": {
+      "required": "L'e-mail est requis !",
+      "pattern": "Veuillez saisir un email valide."
+    }
+  }
+}

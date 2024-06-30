@@ -1,0 +1,40 @@
+@import "../../../styles/variables";
+
+.StepProgress {
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  column-gap: 2px;
+  margin-bottom: 0.75rem;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.current-step {
+  color: $color-text-highlighted;
+}
+
+.max-step {
+}
+
+.progress-bar,
+.progress-bar--filled {
+  height: 4px;
+  border-radius: 100px;
+}
+
+.progress-bar {
+  position: relative;
+  background-color: $bg-light-gray;
+}
+
+.progress-bar--filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $color-primary;
+  width: 0;
+  transition: width ease-in-out 200ms;
+}

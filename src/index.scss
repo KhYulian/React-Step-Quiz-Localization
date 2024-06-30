@@ -1,0 +1,54 @@
+@import "styles/variables";
+@import "styles/typography";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $bg-dark;
+  color: $color-text-primary;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  position: relative;
+  color: $color-text-highlighted;
+  text-decoration: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+  }
+
+  &:hover {
+    &::after {
+      background-color: $color-text-highlighted;
+    }
+  }
+}
+
+strong {
+  color: $color-text-highlighted;
+}

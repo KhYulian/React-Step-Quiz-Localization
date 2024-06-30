@@ -1,0 +1,26 @@
+@import "../../../styles/variables";
+
+.Card {
+  border-radius: 1rem;
+  border: 2px solid transparent;
+  background-color: $bg-dim;
+
+  &:hover:not(.disabled) {
+    background-color: rgba($color-primary, 0.2);
+    cursor: pointer;
+  }
+}
+
+.rounded {
+  border-radius: 1000px;
+}
+
+.selected {
+  border-color: $color-primary;
+  background-color: rgba($color-primary, 0.2);
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}

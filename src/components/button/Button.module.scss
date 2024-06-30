@@ -1,0 +1,49 @@
+@import "styles/variables";
+
+.button {
+  color: $color-text-primary;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  transition: all ease-in-out 150ms;
+
+  &:hover {
+    cursor: pointer;
+    color: $color-text-caption;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+  }
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 600;
+
+  &:hover {
+    img {
+      opacity: 0.9;
+    }
+  }
+}
+
+.filled {
+  border-radius: 1000px;
+  padding: 1rem 2rem;
+  background-color: $color-primary;
+  font-size: 18px;
+  font-weight: 800;
+
+  &:hover {
+    background-color: rgba($color-primary, 0.9);
+  }
+}

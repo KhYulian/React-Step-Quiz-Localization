@@ -1,0 +1,67 @@
+{
+  "app_title": "React Quiz",
+  "next_btn": "Next",
+
+  "quiz_1": {
+    "title": "What is your preferred language?",
+    "subtitle": "Choose language"
+  },
+
+  "quiz_2": {
+    "title": "What gender do you identify with?",
+    "subtitle": "Please share how do you identify yourself",
+    "female": "Female",
+    "male": "Male",
+    "other": "Other"
+  },
+
+  "quiz_3": {
+    "title": "What is your age?",
+    "age_range": "{{start_age}}-{{end_age}} years"
+  },
+
+  "quiz_4": {
+    "title": "What do you <strong>hate</strong> the most in a book?",
+    "lack_of_logic": "Lack of logic",
+    "slow_speed": "A slow speed",
+    "lack_of_humor": "Lack of humor",
+    "generic_ending": "Way too generic ending"
+  },
+
+  "quiz_5": {
+    "title": "What are your favorite topics?",
+    "subtitle": "Choose up to 3 topics you like",
+    "werewolf": "Werewolf",
+    "action": "Action",
+    "royal_obsession": "Royal Obsession",
+    "billionaire": "Billionaire",
+    "romance": "Romance",
+    "young_adult": "Young Adult",
+    "bad_boy": "Bad Boy"
+  },
+
+  "loader": {
+    "text": "Finding collections for you..."
+  },
+
+  "email": {
+    "title": "Email",
+    "subtitle": "Enter your email to get full access",
+    "input_placeholder": "Your email",
+    "policy": "By continuing I agree with <1>Privacy policy</1> and <3>Terms of use.</3>"
+  },
+
+  "results": {
+    "title": "Thank you",
+    "subtitle": "for supporting us and passing quiz",
+    "download_btn": "Download my answers",
+    "retake_btn": "Retake quiz"
+  },
+
+  "validation": {
+    "email": {
+      "required": "Email is required!",
+      "pattern": "Please, enter a valid email."
+    }
+  }
+}
