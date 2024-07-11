@@ -38,7 +38,7 @@ export default function CircularProgress({
     }, duration / END_VALUE);
 
     return () => clearInterval(interval);
-  }, [duration]);
+  }, [duration, onLoaded]);
 
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;

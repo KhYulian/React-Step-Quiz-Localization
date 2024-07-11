@@ -75,6 +75,7 @@ export default function EmailPage() {
               <a
                 href="https://www.wikiwand.com/en/Privacy_policy"
                 target="_blank"
+                rel="noreferrer"
               >
                 Privacy policy
               </a>
@@ -82,6 +83,7 @@ export default function EmailPage() {
               <a
                 href="https://www.wikiwand.com/en/Terms_of_service"
                 target="_blank"
+                rel="noreferrer"
               >
                 Terms of use.
               </a>

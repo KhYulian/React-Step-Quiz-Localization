@@ -21,7 +21,7 @@ function App() {
     navigate(
       `/${currentStep}/${currentStep === Steps.Quiz ? currentQuizQuestion : ""}`,
     );
-  }, []);
+  }, [navigate]);
 
   return (
     <div className={styles.App}>
